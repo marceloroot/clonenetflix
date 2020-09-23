@@ -17,10 +17,12 @@
 .moveRow--item{
     display: inline-block;
     width: 150px;
+    cursor: pointer;
 }
 .moveRow--item img{
     width: 100%;
     transform: scale(0.9);
+    transition: all ease 0.2s;
 }
 
 .moveRow--item img:hover{

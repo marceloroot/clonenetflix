@@ -4,7 +4,7 @@ import './MoviewRow.css';
 export default ({title,items}) => {
    
     let mapImg;
-  console.log(items);
+ 
      if (items){
         mapImg = items.results.map(item =>{
             return (
