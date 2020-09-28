@@ -46,7 +46,7 @@ export default {
             {
                 slug: 'comedy',
                 title: 'Comédia',
-                item: await basicFetch(`/discover/movie?with_genres=35&language=pt-BR&api_key=${API_KEY}`)
+                items: await basicFetch(`/discover/movie?with_genres=35&language=pt-BR&api_key=${API_KEY}`)
             },
             {
                 slug: 'horror',
